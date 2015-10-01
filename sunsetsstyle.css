@@ -30,6 +30,6 @@ ul {
     padding: 0;
 }
 
-.logo {
-  margin-left: auto;
+header {
+  display: inline-block;
 }
