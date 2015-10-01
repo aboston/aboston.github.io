@@ -8,6 +8,24 @@ section {
 }
 
 nav {
+  font-family: 'Arial', sans-serif;
+  font-size: 1.5em;
+  margin: 0 auto;
+  width: 64%;
+}
+
+nav ul {
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
   display: inline-block;
-  margin-left: auto;
+  margin-left: 0.5em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
