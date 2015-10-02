@@ -2,6 +2,12 @@ body {
   font: 16px/1.5 Arial, sans-serif;
 }
 
+header {
+  margin: 0 auto; /* this centers the header in body */
+  text-align: center; /* this centers inline elements in the container */
+  width: 550px; /* have to set a width to use margin: 0 auto; */
+}
+
 section {
   width: 600px;
   margin: 0px auto;
@@ -28,9 +34,4 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-}
-
-header {
-  width: 600px;
-  margin: 0px auto;
 }
