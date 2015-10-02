@@ -14,15 +14,14 @@ section {
 }
 
 nav {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Arial', sans-serif; /* not necessary */
   font-size: 1.5em;
-  margin: 0 auto;
-  width: 64%;
+  margin: 0 auto; /* not necessary */
 }
 
 nav ul {
   padding: 0;
-  text-align: center;
+  text-align: center; /* not necessary */
 }
 
 nav li {
