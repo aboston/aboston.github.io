@@ -34,3 +34,7 @@ ul {
     margin: 0;
     padding: 0;
 }
+
+.line {
+  padding: 0 1.5em;
+}
