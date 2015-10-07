@@ -2,12 +2,16 @@ body {
   font: 16px/1.5 Arial, sans-serif;
 }
 
+/*Header Section*/
 header {
   margin: 0 auto; /* this centers the header in body */
   text-align: center; /* this centers inline elements in the container */
   width: 550px; /* have to set a width to use margin: 0 auto; */
 }
 
+html {
+  background-image: "img/Chris-Steele-Perkinsion23933 (1).jpg"
+}
 section {
   width: 550px;
   margin: 0px auto;
@@ -37,4 +41,9 @@ ul {
 
 .line {
   padding: 0 1.5em;
+}
+
+/*Archives Page*/
+[class*='col-'] {
+  float: left;
 }
