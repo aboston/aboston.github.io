@@ -9,6 +9,16 @@ body {
 /* ==========================================================================
     Header Section
    ========================================================================== */
+
+section.top {
+  background-image: url(img/ChrisSteele-1225x735-dark.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 700px;
+}
+
+
 header {
   background-color: white;
   line-height: 2;
@@ -58,15 +68,6 @@ a {
 /* ==========================================================================
     Hero Section
    ========================================================================== */
-
-.hero {
-  background-image: url(img/ChrisSteele-1225x735-dark.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
-  height: 700px;
-  opacity: 100px;
-}
 
 .hero h1 {
   color: white;
