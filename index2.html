@@ -3,22 +3,24 @@
   <head>
   <title>SunSets</title>
     <link rel="stylesheet" href="sunsetsstyle.css">
+    <script src="jquery.js"></script>
     <script src="main.js"></script>
     <meta charset="UTF-8">
   </head>
   <body>
 <section class="top">
+  <a name="top"></a>
   <header>
     <nav>
       <ul>
         <li>
-          <a href="#">About</a>
+          <a href="#about" class="smoothScroll">About</a>
         </li>
         <li>
-          <a href="#">Events</a>
+          <a href="#events" class="smoothScroll">Events</a>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <a href="#contact" class="smoothScroll">Contact</a>
         </li>
       </ul>
     </nav>
@@ -28,6 +30,7 @@
   </div>
 </section>
   <section class="about">
+    <a name="about"></a>
     <div class="container">
         <h3>
           About
@@ -37,9 +40,9 @@
           <p>This monthly gathering will connect Baltimore’s creative community for a relaxed evening of artistic exchange, expression, and collaboration.</p>
           <p>Come kick it, sip some wine, and learn more about the vision and intention behind this emerging space. Bring your projects, an open mind, and a friend!</p>
     </div>
-      <!-- <span class="scrolltomain"></span> -->
   </section>
   <section class="events">
+      <a name="events"></a>
     <h3>
       Events
     </h3>
@@ -49,7 +52,7 @@
           <h4>
             November 2015
           </h4>
-          <img src="img/sitetest400x400.jpg" alt="November 2015">
+          <img class="eventphoto" src="img/sitetest400x400.jpg" alt="November 2015">
        </div>
      </div>
     </div>
@@ -59,7 +62,7 @@
            <h4>
              October 2015
            </h4>
-           <img src="img/SunSets_October400x400.jpg" alt="October 2015">
+           <img class="eventphoto" src="img/SunSets_October400x400.jpg" alt="October 2015">
         </div>
       </div>
     </div>
@@ -69,31 +72,38 @@
           <h4>
             September 2015
           </h4>
-          <img src="img/SunSetsFINALFlier400x400.jpg" alt="September 2015">
+          <img class="eventphoto" src="img/SunSetsFINALFlier400x400.jpg" alt="September 2015">
        </div>
      </div>
     </div>
+    <!-- copy and paste from <div> to </div> to repeat the event grid -->
   </section>
   <section class="contact">
+    <a name="contact"></a>
     <div class="container">
         <h3>
           Contact
         </h3>
          <br>
-          <p>sunsets.sessions@gmail.com</p>
+        <p>sunsets.sessions@gmail.com</p>
     </div>
   </section>
   <section class="form">
-    <form action="//formspree.io/sunsets.sessions@gmail.com"
-      method="POST">
-    <label for="name">Keep in Touch:</label>
-    <input type="text" name="name" placeholder="Your Name">
-    <input type="email" name="_replyto" placeholder="Your Email Address">
-    <input type="submit" value="Send">
-    <!-- hidden form fields  -->
-    <input type="hidden" name="_next" value="/contactform/thanks/"/>
-    <!-- end hidden fields -->
-  </form>
+    <div class="container">
+      <form action="http://formspree.io/sunsets.sessions@gmail.com"
+        method="POST" target="_blank">
+      <label for="name">Keep in Touch:</label>
+      <input type="text" name="name" placeholder="Your Name">
+      <input type="email" name="_replyto" placeholder="Your Email Address">
+      <input type="submit" value="Send">
+      <!-- hidden form fields  -->
+      <input type="hidden" name="_next" value="/contactform/thanks/"/>
+      <!-- end hidden fields -->
+      </form>
+      <p class="arrow">
+      <a href="#top" class="smoothScroll">▲</a>
+     </p>
+    </div>
   </section>
     <!-- <section>
       <p>SunSets is a tribute to the cultural salons that nurtured the celebrated artists and thinkers of the Harlem Renaissance. This monthly gathering will connect Baltimore’s creative community for a relaxed evening of artistic exchange, expression, and collaboration.</p>
