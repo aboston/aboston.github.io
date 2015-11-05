@@ -32,13 +32,11 @@ header {
 
 header nav {
     margin: 0 auto;
-    max-width: 36em;
     text-align: center;
     display: block;
 }
 
 header ul {
-    display: inline-flex;
     justify-content: space-around;
     margin: 0;
     padding: 0;
@@ -46,7 +44,7 @@ header ul {
 }
 
 header li {
-  flex: 1 0 auto;
+  display: inline-block;
   list-style: none;
   padding: 0.5em;
 }
