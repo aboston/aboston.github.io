@@ -200,4 +200,8 @@ form > label {
     margin-right: 0;
     width: 100%;
   }
+  section .container {
+    margin: 4%;
+    width: 92%;
+  }
 }
