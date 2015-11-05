@@ -1,0 +1,20 @@
+/* ==========================================================================
+    Month Style
+   ========================================================================== */
+
+p {
+  color: black;
+  font: 16px/1.5 Helvetica, sans-serif;
+}
+
+section {
+  margin: 0px auto;
+  text-align: left;
+  width: 400px;
+  font: 16px/1.5 Helvetica, sans-serif;
+}
+
+section h1 {
+  color: black;
+  font-family: 'Alegreya Sans SC', sans-serif;
+}

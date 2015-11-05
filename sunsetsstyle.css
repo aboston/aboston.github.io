@@ -16,7 +16,7 @@ section.top {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-  height: 600px;
+  height: 675px;
   opacity: 0.95;
 }
 
@@ -26,7 +26,7 @@ header {
   line-height: 2;
   opacity: 0.7;
   display: block;
-  position: fixed;
+  /*position: fixed;*/
   width: 100%;
 }
 
@@ -154,6 +154,11 @@ h4 {
   width: 100%;
 }
 
+.eventmonth {
+  font-family: "Alegreya Sans SC";
+  font-size: 18px;
+}
+
 /* ==========================================================================
     Contact Section
    ========================================================================== */
@@ -173,10 +178,26 @@ form {
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
-  font-family: "Alegreya Sans SC"
+  font-family: "Alegreya Sans SC";
 }
 
 form > label {
   color: black;
   font-weight: bold;
+}
+
+/* ==========================================================================
+    Arrows
+   ========================================================================== */
+
+.arrow {
+  padding-top: 40px;
+}
+
+@media screen and (max-width: 480px) {
+  .col-1-3 {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
 }

@@ -1,0 +1,12 @@
+@media screen and (max-width: 600px) {
+
+CSS styles
+wrapped around the column
+.column1, .column2, .column3
+width: 100%
+float: none
+margin: 1%
+**ex of desktop first
+}
+
+mobile first: (min-width: 600px) - says above this width, add columns on desktop
