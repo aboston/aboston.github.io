@@ -2,19 +2,47 @@
     Month Style
    ========================================================================== */
 
-p {
-  color: black;
-  font: 16px/1.5 Helvetica, sans-serif;
-}
-
 section {
-  margin: 0px auto;
-  text-align: left;
-  width: 400px;
-  font: 16px/1.5 Helvetica, sans-serif;
-}
+     margin: 0px auto;
+     text-align: left;
+     width: 400px;
+     font: 16px/1.5 Helvetica, sans-serif;
+   }
 
 section h1 {
   color: black;
   font-family: 'Alegreya Sans SC', sans-serif;
+   }
+
+header {
+     background-color: gray;
+     line-height: 2;
+     opacity: 0.7;
+     display: block;
+     /*position: fixed;*/
+     width: 100%;
+     text-align: center;
+   }
+
+header a:link {
+       border-radius: 0.3125em;
+       color: rgba(23, 32, 42, 0.7);
+       font-weight: bold;
+       font-size: 2vmax;
+       padding: 0.3125em 0.9375em;
+       text-transform: uppercase;
+   }
+
+   a:link {
+       text-decoration: none;
+       transition: all 0.3s ease-in-out;
+   }
+
+   a {
+     color: rgba(23, 32, 42, 0.7);
+   }
+
+p {
+  color: black;
+  font: 16px/1.5 Helvetica, sans-serif;
 }

@@ -20,6 +20,10 @@ section.top {
   opacity: 0.95;
 }
 
+section.month_top.top {
+  background-image: none;
+  height: auto;
+}
 
 header {
   background-color: white;
@@ -214,4 +218,27 @@ form > label {
   section h3 {
   padding-top: 20px;
   }
+}
+
+
+/* ==========================================================================
+    Month Section
+   ========================================================================== */
+
+   .month {
+     background-color: #F8F8F8;
+     color: black;
+     text-align: left;
+   }
+
+  .month .topphoto {
+    width: 100%;
+  }
+
+section.month .container {
+  width: 400px;
+}
+
+section.month h3 {
+padding-top: 45px;
 }
