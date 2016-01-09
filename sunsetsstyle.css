@@ -242,3 +242,11 @@ section.month .container {
 section.month h3 {
 padding-top: 45px;
 }
+
+@media screen and (max-width: 480px) {
+  section.month .container {
+    width: 90%;
+    margin: 0 5%;
+    padding: 0;
+  }
+}
