@@ -124,6 +124,15 @@ section .container {
   width: 550px;
 }
 
+@media screen and (max-width: 480px) {
+  section.about .container {
+    width: 90%;
+    margin: 0 5%;
+    padding: 0;
+  }
+}
+
+
 /* ==========================================================================
     Events Section
    ========================================================================== */
