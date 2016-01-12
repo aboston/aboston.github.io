@@ -124,13 +124,6 @@ section .container {
   width: 550px;
 }
 
-@media screen and (max-width: 480px) {
-  section.about .container {
-    width: 90%;
-    margin: 0 5%;
-    padding: 0;
-  }
-}
 
 
 /* ==========================================================================
@@ -254,6 +247,14 @@ padding-top: 45px;
 
 @media screen and (max-width: 480px) {
   section.month .container {
+    width: 90%;
+    margin: 0 5%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  section.about .container {
     width: 90%;
     margin: 0 5%;
     padding: 0;
